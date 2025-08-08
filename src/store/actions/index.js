@@ -13,6 +13,8 @@ export const fetchProducts = (queryString) => async (dispatch) => {
             totalPages: data.totalPages,
             lastPage: data.lastPage,
         });
+        console.log(data.content);
+        
         dispatch({ type: "IS_SUCCESS" });
     } catch (error) {
         console.log(error);
@@ -167,8 +169,11 @@ export const addUpdateUserAddress =
           headers: { Authorization: "Bearer " + user.jwtToken },
         });
     */
+    console.log(sendData);
     dispatch({ type:"BUTTON_LOADER" });
     try {
+       
+        
         if (!addressId) {
             const { data } = await api.post("/addresses", sendData);
         } else {
@@ -217,6 +222,8 @@ export const getUserAddresses = () => async (dispatch, getState) => {
     try {
         dispatch({ type: "IS_FETCHING" });
         const { data } = await api.get(`/addresses`);
+        console.log(data);
+        
         dispatch({type: "USER_ADDRESS", payload: data});
         dispatch({ type: "IS_SUCCESS" });
     } catch (error) {

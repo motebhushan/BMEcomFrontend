@@ -1,7 +1,7 @@
 # 🛒 BM E-Commerce Website (Frontend)
 
-A **full-stack E-Commerce web application** developed using React (frontend) and Spring Boot (backend).  
-This repository contains the **frontend** codebase built with React and Tailwind CSS.
+A **full-stack E-Commerce web application** developed using **React** for the frontend and **Spring Boot** for the backend.  
+This repository contains the **frontend** codebase built with **React** and **Tailwind CSS**.
 
 ---
 
@@ -10,14 +10,17 @@ This repository contains the **frontend** codebase built with React and Tailwind
 - 🧑‍💻 User Registration & Login (JWT-based)
 - 🛍️ Product Listing with real-time updates
 - 🛒 Cart Management
-- 💳 Checkout Functionality
+- 📥 Order Placement (Checkout)
+- 🧭 Landing Page
+- ✉️ Contact Us Page
+- 📇 Sign In / Sign Up Forms
 - 📊 Admin Dashboard (In Progress)
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React, Tailwind CSS, Axios
+- **Frontend**: React, Tailwind CSS, Axios, React Router
 - **Backend**: Spring Boot, Spring Security, JPA/Hibernate, REST APIs
 - **Database**: MySQL
 - **Authentication**: JWT (JSON Web Tokens)
@@ -33,7 +36,7 @@ BM-Ecom/
 ├── backend/       # Spring Boot App (see backend repo)
 ```
 
-👉 Backend Repository: [bm-ecom](https://github.com/motebhushan/bm-ecom)
+👉 Backend Repository: [bm-ecom (Spring Boot)](https://github.com/motebhushan/bm-ecom)
 
 ---
 
@@ -64,19 +67,47 @@ The app will run on [http://localhost:3000](http://localhost:3000)
 
 ## 🔌 Connect to Backend
 
-Make sure to update the backend API URLs in your frontend service files (e.g., Axios instances) to match your backend server URL (e.g., `http://localhost:8080/api/...`)
+Ensure your frontend is connected to the backend by updating the API URLs in your Axios services to:
+
+```
+http://localhost:8080/api/
+```
 
 ---
 
-## 🖼️ Screenshots (Coming Soon)
+## 🧾 Available Pages
 
-> Add UI screenshots or GIFs of user dashboard, product listing, cart, etc.
+| Page Name        | Description                         |
+|------------------|-------------------------------------|
+| Landing Page     | Homepage with intro, CTA, features |
+| Sign In / Sign Up| User authentication screens        |
+| Products Page    | Browse products with details       |
+| Cart Page        | View & manage selected products    |
+| Checkout         | Place an order (payment: WIP)      |
+| Contact Us       | User queries or feedback form      |
+| Admin Dashboard  | Product control & analytics (WIP)  |
+
+---
+
+## 🖼️ Screenshots
+
+> Here's a glimpse of the UI:
+
+| Landing Page | Sign In Page | Product Listing |
+|--------------|--------------|------------------|
+| ![Landing](./screenshots/landing.png) | ![SignIn](./screenshots/signin.png) | ![Products](./screenshots/products.png) |
+
+| Cart Page | Contact Us Page |
+|-----------|------------------|
+| ![Cart](./screenshots/cart.png) | ![Contact](./screenshots/contact.png) |
+
+> *(Place your actual screenshots in a `/screenshots/` folder and update paths accordingly)*
 
 ---
 
 ## 📚 Backend Setup
 
-To set up the Spring Boot backend, follow instructions in the [bm-ecom backend repository](https://github.com/motebhushan/bm-ecom).
+To set up and run the Spring Boot backend, refer to the instructions provided in the [bm-ecom backend repository](https://github.com/motebhushan/bm-ecom).
 
 ---
 
@@ -89,5 +120,5 @@ To set up the Spring Boot backend, follow instructions in the [bm-ecom backend r
 
 ## 📌 Notes
 
-- This project is a real-world example to showcase full-stack development skills.
-- Additional features like payment integration and admin analytics coming soon.
+- This project showcases a complete MERN-style architecture using React and Spring Boot.
+- More features like payment gateway integration and full admin control are planned in future updates.

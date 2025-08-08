@@ -95,11 +95,11 @@ http://localhost:8080/api/
 
 | Landing Page | Sign In Page | Product Listing |
 |--------------|--------------|------------------|
-| ![Landing](https://github.com/motebhushan/BMEcomFrontend/raw/main/screenshots/landing.png) | ![SignIn](https://github.com/motebhushan/BMEcomFrontend/raw/main/screenshots/signin.png) | ![Products](https://github.com/motebhushan/BMEcomFrontend/raw/main/screenshots/products.png) |
+| ![Landing](https://github.com/motebhushan/BMEcomFrontend/blob/main/Screenshots/landingPage.png) | ![SignIn](https://github.com/motebhushan/BMEcomFrontend/blob/main/Screenshots/signIn.png) | ![Products](https://github.com/motebhushan/BMEcomFrontend/blob/main/Screenshots/Products.png) |
 
 | Cart Page | Contact Us Page |
 |-----------|------------------|
-| ![Cart](https://github.com/motebhushan/BMEcomFrontend/raw/main/screenshots/cart.png) | ![Contact](https://github.com/motebhushan/BMEcomFrontend/raw/main/screenshots/contact.png) |
+| ![Cart](https://github.com/motebhushan/BMEcomFrontend/blob/main/Screenshots/Cart.png) | ![Contact](https://github.com/motebhushan/BMEcomFrontend/blob/main/Screenshots/Contact.png) |
 
 > *(Images are stored in the `/screenshots/` folder of this repository)*
 
